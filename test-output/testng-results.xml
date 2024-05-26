@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-26T13:42:36 WIB" name="GoRestSuite" finished-at="2024-05-26T13:42:50 WIB" duration-ms="13557">
+    <groups>
+    </groups>
+    <test started-at="2024-05-26T13:42:36 WIB" name="GoRestTests" finished-at="2024-05-26T13:42:50 WIB" duration-ms="13557">
+      <class name="api.user.test.AuthenticationsUserTest">
+        <test-method signature="testBearerTokenAuthentication()[pri:0, instance:api.user.test.AuthenticationsUserTest@7f0eb4b4]" started-at="2024-05-26T13:42:37 WIB" name="testBearerTokenAuthentication" finished-at="2024-05-26T13:42:41 WIB" duration-ms="3797" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBearerTokenAuthentication -->
+      </class> <!-- api.user.test.AuthenticationsUserTest -->
+      <class name="api.post.test.AuthenticationsPostTest">
+        <test-method signature="testBearerTokenAuthenticationPost()[pri:0, instance:api.post.test.AuthenticationsPostTest@59662a0b]" started-at="2024-05-26T13:42:45 WIB" name="testBearerTokenAuthenticationPost" finished-at="2024-05-26T13:42:45 WIB" duration-ms="887" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBearerTokenAuthenticationPost -->
+      </class> <!-- api.post.test.AuthenticationsPostTest -->
+      <class name="api.comment.test.ReadCommentTest">
+        <test-method signature="testGetComment()[pri:0, instance:api.comment.test.ReadCommentTest@5b8dfcc1]" started-at="2024-05-26T13:42:49 WIB" name="testGetComment" finished-at="2024-05-26T13:42:50 WIB" duration-ms="950" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetComment -->
+      </class> <!-- api.comment.test.ReadCommentTest -->
+      <class name="api.user.test.UpdateUserTest">
+        <test-method signature="testUpdateUser()[pri:0, instance:api.user.test.UpdateUserTest@1b7cc17c]" started-at="2024-05-26T13:42:43 WIB" name="testUpdateUser" finished-at="2024-05-26T13:42:45 WIB" duration-ms="1314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateUser -->
+      </class> <!-- api.user.test.UpdateUserTest -->
+      <class name="api.user.test.ReadUserTest">
+        <test-method signature="testGettUser()[pri:0, instance:api.user.test.ReadUserTest@4efbca5a]" started-at="2024-05-26T13:42:41 WIB" name="testGettUser" finished-at="2024-05-26T13:42:43 WIB" duration-ms="2550" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGettUser -->
+      </class> <!-- api.user.test.ReadUserTest -->
+      <class name="api.comment.test.CreateCommentTest">
+        <test-method signature="testPostComment()[pri:0, instance:api.comment.test.CreateCommentTest@72967906]" started-at="2024-05-26T13:42:48 WIB" name="testPostComment" finished-at="2024-05-26T13:42:49 WIB" duration-ms="923" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostComment -->
+      </class> <!-- api.comment.test.CreateCommentTest -->
+      <class name="api.post.test.CreatePostTest">
+        <test-method signature="testPostPost()[pri:0, instance:api.post.test.CreatePostTest@77fbd92c]" started-at="2024-05-26T13:42:46 WIB" name="testPostPost" finished-at="2024-05-26T13:42:46 WIB" duration-ms="886" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostPost -->
+      </class> <!-- api.post.test.CreatePostTest -->
+      <class name="api.comment.test.AuthenticationsCommentTest">
+        <test-method signature="testBearerTokenAuthenticationComment()[pri:0, instance:api.comment.test.AuthenticationsCommentTest@1a482e36]" started-at="2024-05-26T13:42:47 WIB" name="testBearerTokenAuthenticationComment" finished-at="2024-05-26T13:42:48 WIB" duration-ms="890" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBearerTokenAuthenticationComment -->
+      </class> <!-- api.comment.test.AuthenticationsCommentTest -->
+      <class name="api.post.test.ReadPostTest">
+        <test-method signature="testGetPost()[pri:0, instance:api.post.test.ReadPostTest@67c27493]" started-at="2024-05-26T13:42:46 WIB" name="testGetPost" finished-at="2024-05-26T13:42:47 WIB" duration-ms="832" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetPost -->
+      </class> <!-- api.post.test.ReadPostTest -->
+    </test> <!-- GoRestTests -->
+  </suite> <!-- GoRestSuite -->
+</testng-results>
