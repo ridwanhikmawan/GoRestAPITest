@@ -1,26 +1,22 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>AirportGapAutomation</groupId>
-  <artifactId>AirportGapAutomation</artifactId>
+  <groupId>GoRestAutomation</groupId>
+  <artifactId>GoRestAutomation</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   
-    
-  <build>
+ <build>
     <pluginManagement>
-    
-  		<plugins>
-  
-  			  <plugin>
-			       <groupId>org.apache.maven.plugins</groupId>
-			       <artifactId>maven-surefire-plugin</artifactId>
-			       <version>3.0.0-M7</version>
-			        <configuration>
-		          	<suiteXmlFiles>
-		          	      		 <suiteXmlFile>testng.xml</suiteXmlFile>
-		          	</suiteXmlFiles>
-		          
-		          </configuration>
-			   </plugin>
+      <plugins>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-surefire-plugin</artifactId>
+          <version>3.2.5</version>
+          <configuration>
+		      <suiteXmlFiles>
+		      	  <suiteXmlFile>testng.xml</suiteXmlFile>
+		      </suiteXmlFiles>   
+	      </configuration>
+        </plugin>
         
 		 	 <plugin>
 		          <groupId>org.apache.maven.plugins</groupId>
@@ -128,11 +124,7 @@
     <version>2.18.0</version>
   </dependency>
    
-  <dependency>
-  	<groupId>AirportGapAPI</groupId>
-  	<artifactId>AirportGapAPI</artifactId>
-  	<version>0.0.1-SNAPSHOT</version>
-  </dependency>
+ 
   </dependencies>
   
   

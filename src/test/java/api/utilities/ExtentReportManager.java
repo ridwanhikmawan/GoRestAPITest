@@ -28,7 +28,7 @@ public class ExtentReportManager implements ITestListener
 		String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());//time stamp
 		repName="Test-Report-"+timeStamp+".html";
 				
-		sparkReporter=new ExtentSparkReporter(".\\reports\\"+repName);//specify location of the report
+		sparkReporter=new ExtentSparkReporter(".\\test-output\\test-report\\"+repName);//specify location of the report
 				
 		sparkReporter.config().setDocumentTitle("RestAssuredAutomationProject"); // Title of report
 		sparkReporter.config().setReportName("Go Rest Users API"); // name of the report
